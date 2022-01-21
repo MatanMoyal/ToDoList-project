@@ -13,7 +13,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/css', express.static(path.join(__dirname, "/public/css")));
 // app.set('views', path.join(__dirname, '../views'))
-app.set('views', '../views')
+app.set('views','./views')
 app.set('view engine', 'ejs');
 
 // inital system
